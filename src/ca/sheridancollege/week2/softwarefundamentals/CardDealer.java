@@ -29,6 +29,9 @@ public class CardDealer
         System.out.println("Hearts is: "+nineHearts.getSuit());
        System.out.println("Hearts is: "+nineHearts.getValue());
           
-      
+      Card tree = new Card("tree",4);
+      tree.setSuit("tree");
+      System.out.println("tree is: "+tree.getSuit());
+      System.out.println("tree is: "+tree.getValue());
     }
 }
