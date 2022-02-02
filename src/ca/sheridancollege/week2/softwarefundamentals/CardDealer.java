@@ -22,12 +22,12 @@ public class CardDealer
         Card nineClubs1 = new Card("Clubs", 9);
       nineClubs1.setSuit("diamonds");
        System.out.println("Clubs is: "+nineClubs1.getSuit());
-       System.out.println("Clbs is: "+nineClubs.getValue());
+       System.out.println("Clubs is: "+nineClubs1.getValue());
         
        Card nineHearts =new Card("Hearts",9);
        nineHearts.setSuit("spades");
         System.out.println("Hearts is: "+nineHearts.getSuit());
-       System.out.println("Clbs is: "+nineClubs.getValue());
+       System.out.println("Hearts is: "+nineHearts.getValue());
           
       
     }
