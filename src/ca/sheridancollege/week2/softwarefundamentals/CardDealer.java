@@ -23,8 +23,7 @@ public class CardDealer
        Card nineHearts =new Card("Hearts",9);
        nineHearts.setSuit("spades");
         System.out.println("Hearts is: "+nineHearts.getSuit());
-
-       
+             
        
     }
 }
